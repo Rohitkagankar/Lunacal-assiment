@@ -1,0 +1,35 @@
+.widget {
+    background: #2c2c2c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tab {
+    background: #3a3a3a;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .tab.active,
+  .tab:hover {
+    background: #555;
+  }
+  
+  .content {
+    font-size: 14px;
+    line-height: 1.5;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  

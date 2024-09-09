@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import TabsWidget from './components/TabsWidget';
-import GalleryWidget from './components/GalleryWidget';
+import TabsWidget from '../Components/TabsWidget';
+import GalleryWidget from '../Components/GalleryWidget';
 
 function App() {
   return (
